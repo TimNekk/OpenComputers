@@ -9,7 +9,7 @@ towers[5] = {x = 5, y = 4, r = 11, farmBlocks = 80, groundBlocks = 419, name = "
 towers[6] = {x = 5, y = 5, r = 11, farmBlocks = 100, groundBlocks = 440, name = "Большой"}
 
 function getUserTower()
-    print("\nРазмеры ферм:")
+  print("\nРазмеры ферм:")
   for i, tower in pairs(towers) do
     print(i .. ") " .. tower.name .. " (" .. tower.x .. "x" .. tower.y .. "x4) Площадь рассадки: " .. tower.groundBlocks)
   end
